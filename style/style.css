@@ -1,5 +1,15 @@
+@font-face {
+    font-family: Halogen;
+    src: url('./font/HalogenbyPixelSurplus-Regular.otf');
+}
+
+@font-face {
+    font-family: Conthrax;
+    src: url('./font/Conthrax-BLRLraCV.otf');
+}
+
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Conthrax', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
@@ -19,7 +29,7 @@ body {
 #navbar {
     background-color: var(--c2);
     width: auto;
-    padding: 0 10px 0 10px;
+    padding: 5px 10px 5px 10px;
 
     position: sticky;
     top: 0px;
@@ -30,12 +40,21 @@ body {
     align-items: center;
 }
 
+.button-container a {
+    text-decoration: none;
+}
+
 .buttons {
     color: red;
+    border: 2px red solid;
 }
 
 button {
     color: blue !important;
+}
+
+.content {
+    margin: 0 10px 0 10px;
 }
 
 .icon {
