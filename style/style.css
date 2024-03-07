@@ -1,11 +1,11 @@
 @font-face {
     font-family: Halogen;
-    src: url('./font/HalogenbyPixelSurplus-Regular.otf');
+    src: url('../font/HalogenbyPixelSurplus-Regular.otf');
 }
 
 @font-face {
     font-family: Conthrax;
-    src: url('./font/Conthrax-BLRLraCV.otf');
+    src: url('../font/Conthrax-BLRLraCV.otf');
 }
 
 * {
