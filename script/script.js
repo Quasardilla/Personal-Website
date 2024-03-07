@@ -17,11 +17,11 @@ function nextPage() {
     if(currentPage + 1 >= pageCount)
         return;
 
-    pages[currentPage].classList.toggleClass('hidden')
+    pages[currentPage].classList.toggle('hidden')
     
     currentPage++;
     
-    pages[currentPage].classList.toggleClass('hidden')
+    pages[currentPage].classList.toggle('hidden')
 }
 
 function prevPage() {
