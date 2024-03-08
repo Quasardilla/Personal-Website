@@ -32,5 +32,5 @@ function prevPage() {
 
 function toggleNav() {
     let navbar = document.getElementById('sidebar-nav');
-    navbar.classList.toggle('hidden');
+    navbar.classList.toggle('sidebar-shown');
 }
